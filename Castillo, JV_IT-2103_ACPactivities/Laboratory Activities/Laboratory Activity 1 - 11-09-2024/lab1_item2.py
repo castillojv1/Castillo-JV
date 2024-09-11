@@ -1,0 +1,5 @@
+user_input = input("Enter two space-seperated characters: ")
+char1, char2 = user_input.split()
+larger_char = max(char1, char2)
+print("------------------------------")
+print(f"The character with greater value is: {larger_char}")
